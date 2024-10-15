@@ -1,0 +1,36 @@
+.product-cards{
+  margin-top: 100px;
+}
+
+.cards{
+  display: flex;
+  justify-content:space-around;
+
+}
+
+.card{
+  margin-top: 50px;
+}
+
+.card a{
+  width: 300px;
+  height: 360px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:black
+
+}
+
+.card a:hover img{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.card a:active{
+  background-color: silver ;
+}

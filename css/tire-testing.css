@@ -1,0 +1,79 @@
+.tire-testing{
+  margin-top: 100px;
+}
+
+.testing-cards{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testing-card{
+  height: 280px;
+  border-radius: 40px;
+}
+
+.testing-card:nth-child(2n) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.img-1{
+  background: url(../img/tire-testing/TireTech-Prüfung\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-2{
+  background: url(../img/tire-testing/t06061truck\ 1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.img-3{
+  background: url(../img/tire-testing/commercial-slider\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-4{
+  background: url(../img/tire-testing/1\ 1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.text-testing{
+  height: 200px;
+  width: 555px;
+  background-color: #fff;
+  border-radius: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+}
+
+.text-testing p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 25px; 
+  line-height: 1.4;
+  color: #1d1d20;
+}
+
+.text-testing h3{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  line-height: 34px; 
+  line-height: 1.4;
+  color: #1d1d20;
+
+}

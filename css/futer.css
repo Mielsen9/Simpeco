@@ -1,0 +1,27 @@
+.futer {
+  margin-top: 1;
+  background-color: #282828 ;
+  height: 100%;
+}
+
+
+.futer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid #fff;
+}
+
+.futer-adres {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.futer-adres a{
+  color: #BDBDBD;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}

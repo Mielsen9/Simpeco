@@ -1,0 +1,41 @@
+.production-conteiner{
+  margin-top: 100px;
+}
+
+.opis-title-production{
+  width: 455px;
+}
+
+.up-factory-conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 533px;
+  background: url(../img/production/161234088290093e8mo\ 3.png);
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.down-factory{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 20px;;
+  height: 420px;
+  background: url(../img/production/zhongce-rubber-group\ 2.png);
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-factory{
+  width: 533px;
+}
+
+.text-factory h2{
+  font-family: 'Inter';
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+

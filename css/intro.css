@@ -1,0 +1,50 @@
+.intro{
+  position: relative;
+}
+
+.backgraund-img{
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+
+.backgraund-img img{
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.header-title{
+  padding-top: 150px;
+  height: 396px;
+  width: 786px;
+
+}
+.header-title h1{
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 220px;
+  color: #fff;
+  opacity: 0.5;
+  text-shadow: 0 0 3px #000; /* Додати тінь навколо тексту */
+}
+
+.header-text p{
+  font-family: 'inter';
+  font-weight: 900;
+  font-size: 88px;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  margin: 0;
+  padding: 40px;
+}
+
+.button{
+  margin-left: 40px ;
+}

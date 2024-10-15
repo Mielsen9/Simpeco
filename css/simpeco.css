@@ -1,0 +1,29 @@
+.simpeco-conteiner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+
+}
+
+.opis-text p{
+  width: 380px;
+  margin-top: 40px;
+}
+
+.text-simpeco p{
+  padding-top: 85px;
+  width: 770px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 60px;
+  color: #1D1D20;
+  opacity: 0.5;
+  line-height: 1.4;
+
+}
+
+.text-simpeco span{
+  background-color: #BCCF00;
+  border-radius: 40px;
+  padding: 0px 25px;
+}

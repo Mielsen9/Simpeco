@@ -1,0 +1,41 @@
+.header{
+  background: #4b600c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-conteiner{
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.navigation{
+  margin-left: 100px;
+  font-size: 18px;
+
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li+li{
+  margin-left: 40px;
+}
+
+.navigation a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color: #BCCF00;
+}
+
+.language{
+  margin-left: auto;
+}

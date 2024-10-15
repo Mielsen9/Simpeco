@@ -1,0 +1,101 @@
+.modern-technology{
+  margin-top: 100px;
+}
+
+.technology{
+  position: relative;
+}
+
+.technology-backgroud{
+  margin-top: 170px;
+  border-radius: 40px;
+  height: 556px;
+  background-color: rgba(188, 207, 0, 1);
+}
+
+.technology-tire-img{
+  position: absolute;
+  top: -78px;
+  left: 125px;
+}
+
+.point{
+  position:absolute;
+  top:-130px;
+  left:220px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px
+}
+
+.point-2{
+  position:absolute;
+  top:-200px;
+  left:800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px
+}
+
+.point-3{
+  position:absolute;
+  top: 200px;
+  left:880px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px
+}
+
+.opis-down{
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 6px 20px;
+  width: 337px;
+  text-align: center;
+  transition: opacity 0.6s ease;
+
+}
+
+.opis-up{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  width: 337px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.point:hover .opis-up{
+  opacity: 1;
+
+}
+
+.point:hover .opis-down{
+  opacity: 0;
+}
+
+.point-2:hover .opis-up{
+  opacity: 1;
+
+}
+
+.point-2:hover .opis-down{
+  opacity: 0;
+}
+
+.point-3:hover .opis-up{
+  opacity: 1;
+
+}
+
+.point-3:hover .opis-down{
+  opacity: 0;
+}
